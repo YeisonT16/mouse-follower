@@ -5,6 +5,13 @@
   text-align: center;
 }
 
+body {
+  display: grid;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
