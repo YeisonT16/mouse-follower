@@ -33,12 +33,12 @@ function App() {
 
 
   return (
-  <main>
-    <div className={`absolute bg-blue-700 rounded-full opacity-80 pointer-events-none -left-5 -top-5 size-10 translate-x-[${position.x}px] translate-y-[${position.y}px]`}></div>
+  <>
+    <div className={`absolute zise-10 border-4 bg-blue-700 rounded-full opacity-80 pointer-events-none -left-5 -top-5 size-10 translate-x-[${position.x}px] translate-y-[${position.y}px]`}/>
     <button onClick={() => {setEnabled(!enabled)}}>
       {enabled ? 'Desactivar' : 'Activar'} Seguir puntero
     </button>
-  </main>
+  </>
   )
 }
 
