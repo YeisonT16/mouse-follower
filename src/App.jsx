@@ -35,7 +35,9 @@ function App() {
   return (
   <>
     <div className={`absolute zise-10 border-4 bg-blue-700 rounded-full opacity-80 pointer-events-none -left-5 -top-5 size-10 translate-x-[${position.x}px] translate-y-[${position.y}px]`}/>
-    <button onClick={() => {setEnabled(!enabled)}}>
+    <button 
+    className='border-2 rounded-lg bg-white text-indigo-500 border-indigo-500 font-bold text-sm cursor-pointer h-auto w-auto p-2'
+    onClick={() => {setEnabled(!enabled)}}>
       {enabled ? 'Desactivar' : 'Activar'} Seguir puntero
     </button>
   </>
